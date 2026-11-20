@@ -1,0 +1,150 @@
+{
+  "municipio": "Estação",
+  "uf": "RS",
+  "publico_alvo": "Candidatos",
+  "tema": "App consultoria política municipal",
+  "codigo_ibge": 4307559,
+  "gentilico": "estacionense",
+  "ibge": {
+    "populacao_censo_2022": 5582,
+    "populacao_estimada_2026": 5685,
+    "area_territorial_km2": 99.757,
+    "densidade_demografica": 55.96,
+    "escolarizacao_6_a_14": 100.0,
+    "idhm": 0.753,
+    "pib_per_capita": 71277.75,
+    "receitas_brutas": 64078542.86,
+    "despesas_brutas": 52814487.03,
+    "vagas_camara": 9
+  },
+  "historico_eleicoes": [
+    {
+      "ano": 2016,
+      "eleitorado_total": 4510,
+      "votos_validos": 4015,
+      "quociente_eleitoral": 446,
+      "clausula_barreira_10": 45
+    },
+    {
+      "ano": 2020,
+      "eleitorado_total": 4545,
+      "votos_validos": 3980,
+      "quociente_eleitoral": 442,
+      "clausula_barreira_10": 45
+    },
+    {
+      "ano": 2024,
+      "eleitorado_total": 4580,
+      "votos_validos": 4120,
+      "quociente_eleitoral": 457,
+      "clausula_barreira_10": 46
+    }
+  ],
+  "regras_probabilidade": {
+    "criterio_corte": "10% do Quociente Eleitoral (cláusula de barreira individual)",
+    "faixas_probabilidade": [
+      { "faixa": "abaixo_corte", "probabilidade": "Inapto", "descricao": "Votos insuficientes para atingir a barreira individual." },
+      { "faixa": "10_a_40_pct_qe", "probabilidade": "Baixa", "descricao": "Composição de legenda partidária." },
+      { "faixa": "41_a_79_pct_qe", "probabilidade": "Média", "descricao": "Disputa viável pela sobra eleitoral (média)." },
+      { "faixa": "acima_80_pct_qe", "probabilidade": "Alta", "descricao": "Forte chance de eleição direta por quociente partidário." }
+    ]
+  },
+  "contabilidade_calculadora": {
+    "teto_gastos_vereador_referencia": 15998.00,
+    "teto_gastos_prefeito_referencia": 159980.00,
+    "divisao_sugerida_percentual": [
+      { "categoria": "Material Gráfico e Visual", "percentual": 35, "descricao": "Santinhos, panfletos, cartazes e adesivos com CNPJ" },
+      { "categoria": "Impulsionamento Digital", "percentual": 20, "descricao": "Anúncios em redes sociais contratados diretamente nas plataformas" },
+      { "categoria": "Combustível e Logística", "percentual": 20, "descricao": "Deslocamento urbano e nas linhas do interior de Estação" },
+      { "categoria": "Assessoria Contábil e Jurídica", "percentual": 15, "descricao": "Obrigatório para prestação de contas no SPCE" },
+      { "categoria": "Reserva Operacional / Imprevistos", "percentual": 10, "descricao": "Despesas miúdas de campanha" }
+    ]
+  },
+  "calendario_eleitoral_mef": [
+    { "etapa": "Desincompatibilização (MEF)", "prazo": "6 a 4 meses antes da eleição", "descricao": "Afastamento obrigatório de servidores e dirigentes públicos para concorrer." },
+    { "etapa": "Convenções Partidárias", "prazo": "20 de julho a 5 de agosto", "descricao": "Definição oficial de coligações majoritárias e candidatos a vereador/prefeito." },
+    { "etapa": "Registro de Candidaturas", "prazo": "Até 15 de agosto", "descricao": "Prazo fatal para envio do pedido de registro no CANDex." },
+    { "etapa": "Início da Propaganda Eleitoral", "prazo": "16 de agosto", "descricao": "Permitida propaganda na internet, alto-falantes e distribuição de material." },
+    { "etapa": "Prestação de Contas Parcial", "prazo": "Setembro", "descricao": "Envio obrigatório das contas e relatórios financeiros parciais." }
+  ],
+  "feriados_municipais": [
+    { "data": "21/04", "nome": "Emancipação Político-Administrativa de Estação" },
+    { "data": "26/07", "nome": "Padroeira Santa Ana" }
+  ],
+  "leis_e_politicas_publicas": [
+    {
+      "eixo": "Infraestrutura e Agricultura",
+      "secretaria": "Secretaria Municipal de Obras / Agricultura e Meio Ambiente",
+      "politica": "Patrulha agrícola mecanizada e manutenção periódica de estradas do interior para escoamento de grãos e bacia leiteira."
+    },
+    {
+      "eixo": "Desenvolvimento Econômico",
+      "secretaria": "Secretaria Municipal de Administração e Desenvolvimento Econômico",
+      "politica": "Incentivo a polos metalmecânicos e desoneração fiscal para atração de novas frentes de trabalho."
+    },
+    {
+      "eixo": "Saúde Municipal",
+      "secretaria": "Secretaria Municipal de Saúde",
+      "politica": "Ampliação do atendimento na atenção primária e fortalecimento do consórcio intermunicipal de exames especializados."
+    },
+    {
+      "eixo": "Educação Básica",
+      "secretaria": "Secretaria Municipal de Educação",
+      "politica": "Projetos de contraturno escolar com robótica, inclusão digital e manutenção da taxa de 100% de escolarização de 6 a 14 anos."
+    }
+  ],
+  "marketing_e_falas": [
+    {
+      "tema": "Abertura de Discurso",
+      "roteiro_sugerido": "Cumprimentar as famílias de Estação, destacar a vocação do povo trabalhador da ferrovia e do campo, e apresentar compromisso com a transparência pública."
+    },
+    {
+      "tema": "Propostas para o Interior",
+      "roteiro_sugerido": "Focar em pontes, pontilhões, escoamento da safra e apoio direto ao produtor rural familiar estacionense."
+    },
+    {
+      "tema": "Geração de Emprego",
+      "roteiro_sugerido": "Destacar parcerias com pequenas oficinas, indústrias locais e incentivo aos microempreendedores individuais da cidade."
+    }
+  ],
+  "corretor_ortografico_termos": [
+    {
+      "termo": "showmicio",
+      "status": "proibido",
+      "correcao": "Showmício é vedado por lei. Substitua por 'reunião com a comunidade' ou 'comício tradicional sem shows'."
+    },
+    {
+      "termo": "brinde",
+      "status": "proibido",
+      "correcao": "Distribuição de camisetas, chaveiros, bonés ou cestas é proibida. Utilize apenas folhetos informativos (santinhos)."
+    },
+    {
+      "termo": "boca de urna",
+      "status": "crime_eleitoral",
+      "correcao": "Propaganda no dia do pleito é crime. Foque na mobilização até as 22h da véspera da eleição."
+    },
+    {
+      "termo": "camara de vereadores",
+      "status": "grafia_recomendada",
+      "correcao": "Utilize 'Câmara Municipal de Vereadores' com inicial maiúscula."
+    }
+  ],
+  "faq": [
+    {
+      "pergunta": "Qual o público-alvo deste aplicativo?",
+      "resposta": "Candidatos aos cargos de Prefeito(a) e Vereador(a) em Estação/RS e suas equipes de campanha."
+    },
+    {
+      "pergunta": "Quantas vagas existem na Câmara de Estação?",
+      "resposta": "São 9 vagas de vereador disputadas pelo sistema proporcional com base no Quociente Eleitoral."
+    },
+    {
+      "pergunta": "Onde ficam as imagens locais usadas no app?",
+      "resposta": "Ficam na pasta 'assets/images/' na raiz do projeto Flutter e são declaradas no pubspec.yaml."
+    },
+    {
+      "pergunta": "O que significa MEF no calendário?",
+      "resposta": "Refere-se ao Marco Eleitoral e Prazos de Feriados/Desincompatibilização dos servidores e agentes políticos."
+    }
+  ]
+}
